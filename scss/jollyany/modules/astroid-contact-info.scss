@@ -1,0 +1,9 @@
+.astroid-contact-info {
+  >span {
+    border-left: 1px solid $border-color;
+    padding-left: 15px;
+    a {
+      color: inherit;
+    }
+  }
+}

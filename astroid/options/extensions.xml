@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params" addfieldpath="/libraries/astroid/framework/fields">
+        <fieldset icon="fas fa-puzzle-piece" label="JOLLYANY_OPTIONS_EXTENSIONS" name="astroid_extensions" addfieldpath="/libraries/jollyany/framework/fields" order="9">
+            <field type="astroidgroup" name="hikashop" title="TPL_ASTROID_EXTENSIONS_MAIN_HIKASHOP_TITLE_LABEL"/>
+            <field type="astroidgroup" name="login" title="TPL_ASTROID_EXTENSIONS_MAIN_LOGIN_TITLE_LABEL"/>
+            <field type="astroidgroup" name="language" title="TPL_ASTROID_EXTENSIONS_MAIN_LANGUAGE_TITLE_LABEL"/>
+
+            <field astroidgroup="hikashop" name="hikacart" type="astroidtext" astroid-switch="true" default="0" label="TPL_JOLLYANY_OPTIONS_HIKACART_LABEL" description="TPL_JOLLYANY_OPTIONS_HIKACART_DESC"></field>
+            <field astroidgroup="hikashop" name="hikacart_module" type="jollyanymodulesid" extension="mod_hikashop_cart" default="" label="TPL_JOLLYANY_OPTIONS_HIKACART_MODULE_LABEL" description="TPL_JOLLYANY_OPTIONS_HIKACART_MODULE_DESC" class="form-control" ngShow="hikacart=='1'" ngRequired="hikacart=='1'"></field>
+            <field astroidgroup="hikashop" name="hikacart_module_position" type="astroidmodulesposition" default="topbar-2" astroid-content-layout="hikashop" label="TPL_ASTROID_MODULE_POSITION_LABEL" description="TPL_ASTROID_MODULE_POSITION_DESC" class="form-control" ngShow="hikacart=='1'" ngRequired="hikacart=='1'"></field>
+            <field astroidgroup="hikashop" name="hikacart_module_load_position" type="astroidlist" label="TPL_ASTROID_FEATURE_LOAD_POSITION_LABEL" description="TPL_ASTROID_FEATURE_LOAD_POSITION_DESC" class="form-control" astroid-content-layout-load="hikacart_module_position" default="after" ngShow="hikacart=='1'" ngRequired="hikacart=='1'">
+                <option value="after">TPL_ASTROID_AFTER_MODULE</option>
+                <option value="before">TPL_ASTROID_BEFORE_MODULE</option>
+            </field>
+            <field astroidgroup="hikashop" ngShow="hikacart=='1'" ngRequired="hikacart=='1'" description="TPL_ASTROID_ICON_COLOR_HIKACART_DESC" name="hikacart_icon_color" type="astroidcolor" large="true" label="TPL_ASTROID_ICON_COLOR_HIKACART_LABEL">
+            </field>
+
+            <field astroidgroup="login" name="joomlalogin" type="astroidtext" astroid-switch="true" default="0" label="TPL_JOLLYANY_OPTIONS_LOGIN_LABEL" description="TPL_JOLLYANY_OPTIONS_LOGIN_DESC"></field>
+            <field astroidgroup="login" name="joomlalogin_module" type="jollyanymodulesid" extension="mod_login" default="" label="TPL_JOLLYANY_OPTIONS_LOGIN_MODULE_LABEL" description="TPL_JOLLYANY_OPTIONS_LOGIN_MODULE_DESC" class="form-control" ngShow="joomlalogin=='1'" ngRequired="joomlalogin=='1'"></field>
+            <field astroidgroup="login" name="joomlalogin_module_position" type="astroidmodulesposition" default="topbar-2" astroid-content-layout="joomlalogin" label="TPL_ASTROID_MODULE_POSITION_LABEL" description="TPL_ASTROID_MODULE_POSITION_DESC" class="form-control" ngShow="joomlalogin=='1'" ngRequired="joomlalogin=='1'"></field>
+            <field astroidgroup="login" name="joomlalogin_module_load_position" type="astroidlist" label="TPL_ASTROID_FEATURE_LOAD_POSITION_LABEL" description="TPL_ASTROID_FEATURE_LOAD_POSITION_DESC" class="form-control" astroid-content-layout-load="joomlalogin_module_position" default="after" ngShow="joomlalogin=='1'" ngRequired="joomlalogin=='1'">
+                <option value="after">TPL_ASTROID_AFTER_MODULE</option>
+                <option value="before">TPL_ASTROID_BEFORE_MODULE</option>
+            </field>
+            <field astroidgroup="login" ngShow="joomlalogin=='1'" ngRequired="joomlalogin=='1'" description="TPL_ASTROID_ICON_COLOR_LOGIN_DESC" name="login_icon_color" type="astroidcolor" large="true" label="TPL_ASTROID_ICON_COLOR_LOGIN_LABEL">
+            </field>
+
+            <field astroidgroup="language" name="language_mod" type="astroidtext" astroid-switch="true" default="0" label="TPL_JOLLYANY_OPTIONS_LANGUAGE_LABEL" description="TPL_JOLLYANY_OPTIONS_LANGUAGE_DESC"></field>
+            <field astroidgroup="language" name="language_module" type="jollyanymodulesid" extension="mod_languages" default="" label="TPL_JOLLYANY_OPTIONS_LANGUAGE_MODULE_LABEL" description="TPL_JOLLYANY_OPTIONS_LANGUAGE_MODULE_DESC" class="form-control" ngShow="language_mod=='1'" ngRequired="language_mod=='1'"></field>
+            <field astroidgroup="language" name="language_module_position" type="astroidmodulesposition" default="topbar-2" astroid-content-layout="language" label="TPL_ASTROID_MODULE_POSITION_LABEL" description="TPL_ASTROID_MODULE_POSITION_DESC" class="form-control" ngShow="language_mod=='1'" ngRequired="language_mod=='1'"></field>
+            <field astroidgroup="language" name="language_module_load_position" type="astroidlist" label="TPL_ASTROID_FEATURE_LOAD_POSITION_LABEL" description="TPL_ASTROID_FEATURE_LOAD_POSITION_DESC" class="form-control" astroid-content-layout-load="language_module_position" default="after" ngShow="language_mod=='1'" ngRequired="language_mod=='1'">
+                <option value="after">TPL_ASTROID_AFTER_MODULE</option>
+                <option value="before">TPL_ASTROID_BEFORE_MODULE</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

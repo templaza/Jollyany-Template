@@ -1,0 +1,28 @@
+div.acymailing_module {
+   input {
+      &.button {
+         background: $primary;
+         @extend .btn-lg;
+      }
+      &.inputbox {
+         padding: $input-padding-y-lg $input-padding-x-lg;
+         &:focus,
+         &:active {
+            box-shadow: $primary;
+         }
+      }
+   }
+   div.acymailing_form {
+      text-align: center;
+      .fieldacyemail {
+         width: 68%;
+      }
+      > p {
+         display: inline-block;
+         margin: 0 -1px 0;
+         &.acysubbuttons {
+            
+         }
+      }
+   }
+}

@@ -1,0 +1,41 @@
+.astroid-component-section {
+  padding: 0;
+  &.content-padding {
+    padding: 4.5rem 0;
+  }
+}
+.top-bar {
+  line-height: 42px;
+}
+.jollyany-bottom-section {
+  h1,h2,h3,h4,h5,h6 {
+    color: inherit;
+  }
+  .sppb-addon-optin-forms {
+    padding: 0;
+    .sppb-optin-form-details-wrap:not(:empty) {
+      padding-top: 0;
+    }
+    .sppb-form-control {
+      color: inherit;
+      background-color: inherit;
+      border: 1px solid #343436;
+    }
+  }
+}
+.sidebar {
+  .moduletable {
+    border-bottom: 1px solid $border-color;
+    padding: 2rem 0;
+    margin: 1rem 0;
+    &:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+}

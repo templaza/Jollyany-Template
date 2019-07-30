@@ -1,0 +1,209 @@
+.tz_portfolio_plus_portfolio {
+  .masonry {
+    margin: 0;
+    .btn-primary {
+      &:hover {
+        background-color: $colorMain;
+        border-color: $colorMain;
+      }
+    }
+  }
+  .option-combo {
+    text-align: center;
+    margin-bottom: 3rem;
+    a.btn-default {
+      background-color: $colorMain;
+      border-color: $colorMain;
+      color: $colorWhite;
+      &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+      }
+    }
+  }
+  .tpp-portfolio__action {
+    margin-top: 3rem;
+    a, a.btn-primary {
+      background-color: $colorMain;
+      border-color: $colorMain;
+      color: $colorWhite;
+      &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+      }
+    }
+  }
+  &.tplSelena {
+    .btn-primary {
+      background-color: $colorWhite;
+      border-color: $colorWhite;
+      color: $colorBlack;
+    }
+  }
+  &.tplBesley {
+    .masonry {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+}
+.tpp-module-carousel {
+  .btn-primary {
+    background-color: $colorWhite;
+    border-color: $colorWhite;
+    color: $colorBlack;
+    &:hover {
+      background-color: $colorMain;
+      border-color: $colorMain;
+    }
+  }
+  .owl-dots .owl-dot{
+    &.active, &:hover {
+      span {
+        background: $colorMain;
+      }
+    }
+  }
+  .tpp-portfolio__action {
+    margin-top: 2rem;
+    a {
+      background-color: $colorMain;
+      border-color: $colorMain;
+      color: $colorWhite;
+      &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+      }
+    }
+  }
+}
+#tpPortfolio.tzpp_bootstrap3 {
+  margin: 0;
+}
+.tpItemPage {
+  #tz-portfolio-template-body {
+    .pull-left {
+      margin: .5em 1.5em .5em 0;
+    }
+    .pull-right {
+      margin: .5em 0 1em 1.5em;
+    }
+  }
+  .tpHead {
+    .contact {
+      padding: 10px 15px;
+    }
+    .tpArticleMedia.pw-5 {
+      .tpImage {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .pager {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    li {
+      a {
+        border: 1px solid darken($border-color, 2%);
+        padding: 7px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        &:hover {
+          background-color: $colorMain;
+          border-color: $colorMain;
+          color: $colorWhite;
+        }
+      }
+      &.next {
+        a {
+          float: right;
+        }
+      }
+      &.prev {
+        a {
+          float: left;
+        }
+      }
+      &.go-portfolio {
+        text-align: center;
+        font-size: 23px;
+      }
+    }
+  }
+  .tp-item-tools .btn {
+    background-color: $colorMain;
+    border-color: $colorMain;
+    color: $colorWhite;
+    &:hover {
+      background-color: $colorBlack;
+      border-color: $colorBlack;
+      color: $colorWhite;
+    }
+  }
+  .tpRelated {
+    .tpTitle {
+      font-size: 1rem;
+    }
+    ul {
+      list-style:none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  ul.tpExtraFields {
+    padding-left: 0;
+    list-style: none;
+  }
+  .tpp-author-about {
+    .media {
+      display: flex;
+      align-items: center;
+      .title {
+        margin: 0;
+      }
+      .avatar {
+        padding: 0;
+      }
+    }
+  }
+  .tpPortfolioLink a, .tpBody .tpPortfolioLink a {
+    background-color: $colorMain;
+    border-color: $colorMain;
+    color: $colorWhite;
+    &:hover {
+      background-color: $colorBlack;
+      border-color: $colorBlack;
+      color: $colorWhite;
+    }
+  }
+  .dropdown-toggle::after {
+    content: none;
+  }
+}
+.inline-style>.container-fluid>.row>div {
+  flex: 0 0 auto;
+}
+.tzpp_bootstrap3 {
+  a {
+    color: $colorMain;
+    &:hover, &:focus {
+      color: darken($colorMain, 2%);
+    }
+  }
+  .option-combo {
+    a {
+      color: $colorBlack;
+    }
+  }
+  blockquote {
+    border-color: $colorMain;
+  }
+}
+.tpBlog .TzItemsRow .date-group .date {
+  background-color: $colorMain;
+  color: $colorWhite !important;
+}

@@ -1,0 +1,57 @@
+#es {
+  .mod-card__context {
+    background-color: $white;
+  }
+  .es-stream-embed {
+    padding: 15px;
+  }
+  .es-stream-embed__title {
+    border: none;
+    margin-top: 1rem;
+  }
+  .es-apps-entry-section__content, .es-actions {
+    padding: 15px;
+    background-color: $white;
+    border: 1px solid $border-color;
+  }
+  .es-stream-title {
+    font-weight: bolder;
+  }
+}
+.sppb-addon-content{
+  #es {
+    &.mod-es-users {
+      .o-avatar {
+        width: 94px;
+        height: 94px;
+        border-radius: 0;
+        img {
+          border-radius: 0;
+          padding: 4px;
+          border: 1px solid $border-color;
+          background-color: $colorWhite;
+        }
+      }
+      .g-list-inline {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        >li {
+          margin: 0 0.4rem 0.8rem !important;
+        }
+      }
+      .view-more {
+        text-align: center;
+      }
+    }
+    .btn-es-default-o {
+      background-color: $colorMain !important;
+      border-color: $colorMain !important;
+      color: $colorWhite !important;
+      &:hover {
+        background-color: $colorBlack !important;
+        border-color: $colorBlack !important;
+      }
+    }
+  }
+}

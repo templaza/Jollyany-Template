@@ -1,0 +1,115 @@
+#ed {
+  input, button, select, textarea {
+    font-family: inherit;
+  }
+  .form-control {
+    border-color: darken($border-color,2%);
+  }
+  .ed-navbar {
+    font-size: 14px;
+  }
+  .ed-navbar__body {
+    background-color: $colorMain;
+    border-color: $colorMain;
+  }
+  .ed-navbar__search, .ed-navbar__search-input {
+    background-color: darken($colorMain,10%);
+  }
+  .o-grid {
+    width: 100%;
+  }
+  .ed-post-item__title, .ed-forum-item__title {
+    font-size: 130%;
+    font-weight: 700;
+    a {
+      color: $colorBlack;
+    }
+  }
+  .o-label {
+    font-size: 100%;
+  }
+  .is-resolved .ed-state-resolved {
+    font-size: 70%;
+  }
+  .ed-post-item__sub-hd {
+    background-color: darken($colorWhite, 2%);
+    border-color: darken($border-color, 2%);
+    .g-list-inline {
+      margin-left: -6px;
+      margin-right: -6px;
+    }
+  }
+  .tz_postdetail_header {
+    width: 100%;
+  }
+  .ed-post-item__ft {
+    background-color: darken($colorWhite, 2%);
+  }
+  .ed-reply-form__bd {
+    background-color: darken($colorWhite, 2%);
+  }
+  .ed-editor-tab__nav {
+    background-color: darken($colorWhite, 2%);
+  }
+  .ed-ask__bd {
+    background-color: darken($colorWhite, 2%);
+  }
+  .ed-forum__ft {
+    background-color: darken($colorWhite, 2%);
+  }
+  .popbox-dropdown {
+    background-color: darken($colorWhite, 2%);
+  }
+  .ed-reply-item__comments-wrap, .ed-reply-item__ft {
+    background-color: darken($colorWhite, 2%);
+  }
+  .o-grid_avatar {
+    flex: 0;
+  }
+  .o-avatar--md {
+    width: 40px;
+    height: 40px;
+  }
+  .g-list-inline.ed-post-item__post-meta > li {
+    margin-right: 7px;
+    line-height: 1;
+    .ed-user-rank {
+      display: inline-block;
+    }
+  }
+  .ed-post-item__post-meta {
+    display: flex;
+    align-items: center;
+  }
+  .ed-user-name {
+    padding: 4px 6px;
+  }
+  .o-flag__image {
+    padding-right: 0;
+  }
+  .ed-post-item__hd {
+    display: flex;
+    .o-grid_avatar {
+      margin-right: 15px;
+    }
+  }
+  .ed-forum__hd, .ed-user-profile__hd, .ed-reply-item__hd, .ed-categories {
+    .o-flag__image {
+      padding-right: 15px;
+    }
+  }
+  .ed-user-profile__hd, .ed-reply-item__hd {
+    .ed-user-name {
+      padding: 0;
+    }
+  }
+  .ed-user-name.o-label {
+    background-color: $colorMain;
+  }
+  .ed-post-meta-cat a {
+    background-color: lighten($colorBlack,5%);
+    color: $colorWhite;
+    padding: 3px 6px;
+    border-radius: .25em;
+  }
+}

@@ -1,0 +1,201 @@
+.hikashop_product_quantity_change_div_plus_default, .hikashop_product_quantity_change_div_minus_default {
+  background-color: $colorBlack;
+  border-color: $colorBlack;
+}
+.hikashop_product_quantity_field_change {
+  color: $colorWhite;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+.hikashop_product_quantity_change_div_default {
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: -1px;
+  display: flex;
+  flex-direction: column;
+  background-color: $colorBlack;
+  border-color: $colorBlack;
+}
+.hikashop_product_quantity_div {
+  input {
+    text-align: center;
+    padding: 4px 0;
+  }
+}
+.hikashop_products {
+  form {
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    .hikacart {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+a.hikacart {
+  background-color: $colorMain;
+  border-color: $colorMain;
+  color: $colorWhite;
+  &:hover {
+    background-color: $colorBlack;
+    border-color: $colorBlack;
+  }
+}
+.hikashop_product_name {
+  a {
+    font-size: 1rem;
+  }
+}
+.hikashop_product_image {
+  margin-bottom: 0.7rem;
+}
+.hikashop_products_listing {
+  .hikashop_product {
+    margin-bottom: 2rem;
+  }
+}
+.hikashop_products_pagination {
+  .list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .pagination {
+      margin: 0;
+    }
+  }
+}
+.float-left-product {
+  .hikashop_product_image {
+    float: left;
+  }
+}
+.hikashop_product_quantity_main {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  .hikacart {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+.hikashop_product_no_stock {
+  font-size: 1.5rem;
+}
+.hikashop_product_stock_count {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.hikashop_global_image_div {
+  .hikashop_small_image_div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img.hikashop_child_image {
+      height: 100px;
+    }
+  }
+}
+.hikashop_product_price_main {
+  padding: 1.5rem 0;
+  display: block;
+  &:after, &:before {
+    content: '';
+    display: block;
+  }
+  .hikashop_product_price {
+    font-size: 2rem;
+  }
+  .hikashop_product_price_with_min_qty {
+    display: block;
+  }
+}
+.hikashop_product_bottom_part {
+  margin-top: 2rem;
+}
+
+#hikashop_vote_listing .hikashop_listing_comment {
+  .commentHeader {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .hikashop_sort_listing_comment {
+    width: 50%;
+    text-align: right;
+  }
+  .hika_comment_listing {
+    border: 1px solid $border-color;
+    display: block;
+    margin: 0 0 20px;
+    padding: 25px;
+
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .limit {
+      float: right;
+    }
+  }
+  .hika_comment_listing_stars {
+    vertical-align: top;
+    padding: 0;
+  }
+}
+.hikashop_comment_form {
+  margin: 20px 0;
+  .hikashop_comment_form_name {
+    margin-bottom: 10px;
+  }
+  #pseudo_comment {
+    border: 1px solid $border-color;
+    width: 100%;
+    padding: 5px 10px;
+  }
+}
+.hikashop_comment_textarea {
+  border: 1px solid $border-color;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+.hikashop_vote_form {
+  .button {
+    background-color: $colorMain;
+    border-color: $colorMain;
+    color: $colorWhite;
+    &:hover {
+      background-color: $colorBlack;
+      border-color: $colorBlack;
+    }
+  }
+}
+.jollyany-hikacart {
+  border-left: 1px solid $border-color;
+  padding-left: 15px;
+}
+a.jollyany-hikacart-icon {
+  color: inherit;
+  > i {
+    position: relative;
+  }
+  .cart-count {
+    background-color: red;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -6px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+}

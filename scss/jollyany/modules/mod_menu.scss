@@ -1,0 +1,26 @@
+.sidebar {
+  .menu-module.nav {
+    >li {
+      margin: 0 0 3px;
+      >a {
+        padding: 10px 15px;
+        border: 1px solid darken($border-color, 2%);
+        border-radius: 0;
+        display: block;
+        &:hover, &:focus {
+          background-color: $colorMain;
+          color: $colorWhite;
+          border-color: $colorMain;
+        }
+      }
+      &.active {
+        >a {
+          background-color: $colorMain;
+          color: $colorWhite;
+          border-color: $colorMain;
+        }
+      }
+
+    }
+  }
+}

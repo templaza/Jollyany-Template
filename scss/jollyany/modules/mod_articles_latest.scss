@@ -1,0 +1,38 @@
+ul.home-latestnews {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .info {
+    i {
+      color: $colorMain;
+    }
+    > div {
+      display: inline-block;
+    }
+  }
+}
+.latestnews-media {
+  .list-group-item {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+  }
+  .article-media {
+    width: 100px;
+    height: 80px;
+    min-width: 100px;
+    margin-right: 0.8rem;
+    align-items: center;
+    >img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .info {
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

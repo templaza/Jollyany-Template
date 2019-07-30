@@ -1,0 +1,13 @@
+// Bootstrap 4.1.3 variables override
+@import "bootstrap/functions";
+@import "jollyany/variables_override";
+
+// Bootstrap Default 4.1.3
+@import "bootstrap/bootstrap";
+
+// Astroid Framework
+@import "astroid/astroid";
+
+// Theme
+@import "jollyany/astroid";
+@import "jollyany/style";

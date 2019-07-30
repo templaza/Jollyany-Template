@@ -1,0 +1,50 @@
+.tp-caption {
+  &.fullcoveredvideo {
+    .videoisplaying {
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7);
+      }
+    }
+
+  }
+  a {
+    color: $colorMain;
+  }
+  &.button_orange {
+    border-radius: 5px;
+    a {
+      color: $colorWhite;
+      &:hover {
+        color: $colorWhite;
+      }
+    }
+    &:hover {
+      background-color: $colorBlack;
+    }
+  }
+  &.small_text{
+    span {
+      color: $colorMain;
+      font-size: 1.2em;
+    }
+  }
+  &.button_black {
+    border-radius: 5px;
+    a {
+      color: $colorWhite;
+      &:hover {
+        color: $colorWhite;
+      }
+    }
+    &:hover {
+      background-color: lighten($colorBlack, 20%);
+    }
+  }
+}
