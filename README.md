@@ -64,6 +64,11 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.1.1 - August 1st, 2019**
+
+    + [fixbug] Fix css issue with Sidebar from version 3.1.0
+    + [update] Update TZ Portfolio v2.2.9
+
 **Version 3.1.0 – July 26th, 2019**
 
     + [new topic] Fashion - Photography, Model Agency Joomla Template included
