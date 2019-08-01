@@ -11,6 +11,10 @@
   .astroid-sidebar-content {
     padding: 15px 25px;
   }
+  .astroid-sidebar-collapsed-logo {
+    margin: 15px 0;
+    display: none;
+  }
   @media(max-width: 1600px) {
     .astroid-sidebar-menu {
       li a {
@@ -28,6 +32,17 @@
       .astroid-sidebar-logo {
         padding-left: 20px;
         padding-right: 20px;
+      }
+    }
+  }
+  @media(min-width: 1200px) and (max-width: 1600px) {
+    .astroid-sidebar-collapsed-logo {
+      display: flex;
+      justify-content: center;
+    }
+    &.expanded {
+      .astroid-sidebar-collapsed-logo {
+        display: none;
       }
     }
   }

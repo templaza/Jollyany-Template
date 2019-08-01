@@ -138,6 +138,9 @@
          <field astroidgroup="header_element" description="TPL_ASTROID_BASIC_MOBILE_LOGO_DESC" ngShow="header==true AND logo_type=='image'" ngRequired="logo_type=='image'" name="mobile_logo" type="astroidmedia" label="TPL_ASTROID_BASIC_MOBILE_LOGO_LABEL">
          </field>
 
+         <field astroidgroup="header_element" description="TPL_ASTROID_BASIC_SIDEBAR_COLLAPSED_LOGO_DESC" ngShow="header==true AND header_mode=='sidebar'" name="sidebar_logo" type="astroidmedia" label="TPL_ASTROID_BASIC_SIDEBAR_COLLAPSED_LOGO_LABEL">
+         </field>
+
          <field ngShow="header==true AND header_mode!='sidebar'" astroidgroup="header_element" description="TPL_ASTROID_HEADER_STICKY_HEADER_DESC" title="TPL_ASTROID_HEADER_STICKY_HEADER_LABEL" type="astroidheading" />
 
          <field ngShow="header==true AND header_mode!='sidebar'" astroidgroup="header_element" class="sticky-header-switch" name="enable_sticky_menu" type="astroidtext" astroid-switch="true" default="0" label="TPL_ASTROID_HEADER_STICKY_HEADER_ENABLE_LABEL" description="TPL_ASTROID_HEADER_STICKY_HEADER_ENABLE_DESC"></field>

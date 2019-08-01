@@ -16,7 +16,7 @@
 				<option value="2">TPL_ASTROID_SOCIAL_STYLE_OPTIONS_BRAND_COLOR</option>
 			</field>
 
-			<field astroidgroup="social_profile" ngShow="social_profiles_style=='1'" ngRequired="social_profiles_style=='1'" description="TPL_ASTROID_SOCIAL_COLOR_DESC" name="social_icon_color" type="astroidcolor" large="true" label="TPL_ASTROID_SOCIAL_COLOR_LABEL">
+			<field astroidgroup="social_profile" ngShow="social_profiles_style=='1'" description="TPL_ASTROID_SOCIAL_COLOR_DESC" name="social_icon_color" type="astroidcolor" large="true" label="TPL_ASTROID_SOCIAL_COLOR_LABEL">
 			</field>
 
 			<field astroidgroup="social_profile" name="social_profiles" type="astroidsocialprofiles"></field>

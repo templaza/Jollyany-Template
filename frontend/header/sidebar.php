@@ -28,42 +28,55 @@ $offcanvas_togglevisibility = $params->get('offcanvas_togglevisibility', 'd-bloc
 $class = ['astroid-header', 'astroid-sidebar-header', 'sidebar-dir-' . $mode, 'h-100', 'has-sidebar'];
 $navClass = ['nav', 'astroid-nav', 'd-none', 'd-lg-flex'];
 $navWrapperClass = ['align-self-center', 'px-2', 'd-none', 'd-lg-block'];
+$sidebar_logo = $params->get('sidebar_logo', false);
+$app = JFactory::getApplication();
+$sitename = $app->get('sitename');
+//var_export($sidebar_logo); die();
 ?>
 <!-- header starts -->
 <header id="astroid-header" class="<?php echo implode(' ', $class); ?>">
-   <div class="astroid-sidebar-content h-100">
-      <div class="astroid-sidebar-collapsable">
-         <i class="fa"></i>
-      </div>
-      <div class="astroid-sidebar-logo">
-         <?php if (!empty($header_mobile_menu)) { ?>
-            <div class="justify-content-start astroid-sidebar-mobile-menu">
-               <div class="header-mobilemenu-trigger burger-menu-button align-self-center" data-offcanvas="#astroid-mobilemenu" data-effect="mobilemenu-slide">
-                  <button class="button" type="button"><span class="box"><span class="inner"></span></span></button>
-               </div>
+    <div class="astroid-sidebar-content h-100">
+        <div class="astroid-sidebar-collapsable">
+            <i class="fa"></i>
+        </div>
+	    <?php if (!empty($sidebar_logo)) { ?>
+            <div class="astroid-sidebar-collapsed-logo">
+                <img src="<?php echo JURI::root() .$template->SeletedMedia(). '/' . $sidebar_logo; ?>" alt="<?php echo $sitename; ?>" class="astroid-logo-sidebar" />
             </div>
-         <?php } ?>
-         <?php $template->loadLayout('logo'); ?>
-      </div>
-      <div class="astroid-sidebar-menu">
-         <?php AstroidMenu::getSidebarMenu($header_menu); ?>
-      </div>
-      <?php if ($block_1_type != 'blank'): ?>
-         <div class="astroid-sidebar-block">
-            <?php
-            if ($block_1_type == 'position') {
-               echo '<div class="header-block-item">';
-               echo $template->renderModulePosition($block_1_position, 'xhtml');
-               echo '</div>';
-            }
-            if ($block_1_type == 'custom') {
-               echo '<div class="header-block-item">';
-               echo $block_1_custom;
-               echo '</div>';
-            }
-            ?>
-         </div>
-      <?php endif; ?>
-   </div>
+	    <?php } ?>
+        <div class="astroid-sidebar-logo">
+			<?php if (!empty($header_mobile_menu)) { ?>
+                <div class="justify-content-start astroid-sidebar-mobile-menu">
+                    <div class="header-mobilemenu-trigger burger-menu-button align-self-center"
+                         data-offcanvas="#astroid-mobilemenu" data-effect="mobilemenu-slide">
+                        <button class="button" type="button"><span class="box"><span class="inner"></span></span>
+                        </button>
+                    </div>
+                </div>
+			<?php } ?>
+			<?php $template->loadLayout('logo'); ?>
+        </div>
+        <div class="astroid-sidebar-menu">
+			<?php AstroidMenu::getSidebarMenu($header_menu); ?>
+        </div>
+		<?php if ($block_1_type != 'blank'): ?>
+            <div class="astroid-sidebar-block">
+				<?php
+				if ($block_1_type == 'position')
+				{
+					echo '<div class="header-block-item">';
+					echo $template->renderModulePosition($block_1_position, 'xhtml');
+					echo '</div>';
+				}
+				if ($block_1_type == 'custom')
+				{
+					echo '<div class="header-block-item">';
+					echo $block_1_custom;
+					echo '</div>';
+				}
+				?>
+            </div>
+		<?php endif; ?>
+    </div>
 </header>
 <!-- header ends -->
