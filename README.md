@@ -67,6 +67,7 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 **Version 3.1.1 - August 1st, 2019**
 
     + [fixbug] Fix css issue with Sidebar from version 3.1.0
+    + [new feature] Option add logo to Sidebar Collapsed
     + [update] Update TZ Portfolio v2.2.9
 
 **Version 3.1.0 – July 26th, 2019**
