@@ -230,3 +230,52 @@
     }
   }
 }
+.sppb-addon-feature {
+  .sppb-addon-title {
+    a {
+      color: inherit;
+    }
+  }
+}
+.landing-demos {
+  .sppb-addon-content {
+    transition: all .2s;
+    background-color: $white;
+    box-shadow: 0 0 32px rgba(74,74,225,0.09);
+    padding: 5px;
+    border-radius: 3px;
+    .sppb-img-container {
+      position: relative;
+      >a{
+        &:before {
+          transition: all .2s;
+          content: '';
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          text-transform: uppercase;
+          font-size: 24px;
+          font-weight: 500;
+          font-family: "Roboto Condensed";
+          color: #fff;
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0 0 32px rgba(74,74,225,0.2);
+      .sppb-img-container {
+        >a {
+          &:before {
+            content: 'View Demo';
+            background-color: fade_out($dark, 30%);
+          }
+        }
+      }
+    }
+  }
+}
