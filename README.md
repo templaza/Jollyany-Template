@@ -64,7 +64,7 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
-**Version 3.1.2 - August 5nd, 2019**
+**Version 3.1.2 - August 5th, 2019**
 
     + [fixbug] Fix issue for validate key when active license
     + [fixbug] Close button on mobile issue
