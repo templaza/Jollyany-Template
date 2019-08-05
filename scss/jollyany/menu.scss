@@ -61,3 +61,18 @@
     }
   }
 }
+.cta-menu {
+  >a {
+    background-color: $colorMain !important;
+    border-color: $colorMain !important;
+    color: $dark !important;
+    border-radius: 3px;
+    &:hover {
+      background-color: lighten($colorMain, 10%) !important;
+      color: $dark !important;
+    }
+    &:focus {
+      color: $dark !important;
+    }
+  }
+}

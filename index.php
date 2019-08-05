@@ -99,6 +99,7 @@ $template->_loadFontAwesome();
    $template->loadLayout('colors');
    ?>
    <?php $template->head(); ?>
+       <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
 </head>
 <body class="<?php echo $template->bodyClass($template->language, $template->direction); ?>">
    <?php

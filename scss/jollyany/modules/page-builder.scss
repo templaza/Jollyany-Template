@@ -11,9 +11,14 @@
   padding-left: 1em;
   padding-right: 1em;
 }
+.sppb-btn-xlg {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
 .sppb-btn-primary {
   background-color: $colorMain;
   border-color: $colorMain;
+  color: $dark;
   &:hover {
     background-color: darken($colorMain, 10%);
     border-color: darken($colorMain, 10%);
@@ -277,5 +282,43 @@
         }
       }
     }
+  }
+}
+.landing-customizer {
+  .sppb-addon-feature {
+    .sppb-addon-content {
+      transition: all .2s;
+      border-radius: 4px;
+      box-shadow: 0 0 32px rgba(74,74,225,0.2);
+      padding: 18px 20px;
+      background-color: $white;
+      &:hover {
+        box-shadow: 0 0 32px rgba(74,74,225,0.3);
+      }
+    }
+  }
+}
+.landing-benefit {
+  .sppb-addon-feature {
+    .sppb-media-content {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+}
+.cta-button {
+  div {
+    font-size: 19px;
+  }
+  del {
+    font-size: 35px;
+    line-height: 1;
+    opacity: 0.7;
+  }
+  strong {
+    font-size: 68px;
+    line-height: 1;
+    font-weight: 700;
+    padding-left: 15px;
   }
 }

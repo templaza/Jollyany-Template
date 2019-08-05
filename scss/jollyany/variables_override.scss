@@ -1,6 +1,12 @@
 /* Override Bootstrap and Astroid Variables Here */
 $primary:             #2c2e36 !default;
 $secondary:           #ff3366 !default;
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1170px
+) !default;
 
 // Custom Button 
 $btn-border-radius-lg:  0.2rem !default;
