@@ -1,27 +1,2 @@
-.lead {
-  line-height: 1.6em;
-  strong {
-    font-weight: 700;
-  }
-}
-.btn {
-  padding: 0.375rem 1rem;
-}
-.no-border-top {
-  border-top: none !important;
-}
-.padding-0 {
-  padding: 0;
-}
-.list-group-item {
-  border-color: darken($border-color,2%);
-}
-.card {
-  border-color: darken($border-color,2%);
-}
-blockquote {
-  border-color: $colorMain;
-}
-.border-right {
-  border-right: 1px solid $border-color;
-}
+// Basic Default
+@import "../../../../libraries/jollyany/framework/scss/jollyany/basic";

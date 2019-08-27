@@ -1,17 +1,2 @@
-.astroid-social-icons {
-  >li {
-    border-left: 1px solid $border-color;
-    margin: 0;
-    min-width: 42px;
-    text-align: center;
-    a {
-      color: $colorSocialLink !important;
-    }
-    &:hover {
-      background-color: $colorMain;
-      a {
-        color: $colorSocialLinkHover !important;
-      }
-    }
-  }
-}
+// Astroid Social Icon Default
+@import "../../../../../libraries/jollyany/framework/scss/jollyany/modules/astroid-social-icons";

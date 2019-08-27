@@ -64,6 +64,12 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.1.3 - August 27th, 2019**
+
+    + [update] Move all basic layout and scss to library
+    + [improve] Update dashboard style
+    + [new feature] Preset integrated
+
 **Version 3.1.2 - August 5th, 2019**
 
     + [fixbug] Fix issue for validate key when active license

@@ -1,9 +1,2 @@
-.astroid-contact-info {
-  >span {
-    border-left: 1px solid $border-color;
-    padding-left: 15px;
-    a {
-      color: inherit;
-    }
-  }
-}
+// Astroid Contact Info Default
+@import "../../../../../libraries/jollyany/framework/scss/jollyany/modules/astroid-contact-info";

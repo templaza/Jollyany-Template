@@ -1,14 +1,2 @@
-.mod_breadcrumbs {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .heading-title-page {
-    line-height: 1;
-    margin: 0;
-  }
-  .breadcrumb {
-    margin: 0;
-    background-color: transparent;
-    justify-content: flex-end;
-  }
-}
+// Module Breadcrumbs Default
+@import "../../../../../libraries/jollyany/framework/scss/jollyany/modules/mod_breadcrumbs";

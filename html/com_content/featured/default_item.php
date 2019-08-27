@@ -6,11 +6,10 @@
  * @license https://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or Later
  */
 defined('_JEXEC') or die;
-jimport('astroid.framework.article');
-jimport('astroid.framework.template');
-$template = new AstroidFrameworkTemplate(JFactory::getApplication()->getTemplate(true));
+jimport('jollyany.framework.article');
+$template = new JollyanyFrameworkTemplate(JFactory::getApplication()->getTemplate(true));
 // Astroid Article/Blog
-$astroidArticle = new AstroidFrameworkArticle($this->item, true);
+$astroidArticle = new JollyanyFrameworkArticle($this->item, true);
 // Create a shortcut for params.
 $params = $this->item->params;
 $tpl_params = JFactory::getApplication()->getTemplate(true)->params;

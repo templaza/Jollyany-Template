@@ -13,12 +13,13 @@ $app = JFactory::getApplication();
 /** @var JDocumentHtml $this */
 JLoader::import('joomla.filesystem.file');
 JHtml::_('behavior.framework', true);
-$lib = JPATH_SITE . '/libraries/astroid/framework/template.php';
-if (file_exists($lib)) {
-   jimport('astroid.framework.constants');
-   jimport('jollyany.framework.jollyany');
+$astroid    = JPATH_SITE . '/libraries/astroid/framework/template.php';
+$jollyany   = JPATH_SITE . '/libraries/jollyany/framework/template.php';
+if (file_exists($astroid) && file_exists($jollyany)) {
+	jimport('astroid.framework.constants');
+	jimport('jollyany.framework.jollyany');
 } else {
-   die('Please install and activate <a href="https://www.astroidframework.com/" target="_blank">Astroid Framework</a> in order to use this template.');
+	die('Please install and activate <a href="https://www.astroidframework.com/" target="_blank">Astroid Framework</a>, <a href="https://github.com/templaza/jollyany" target="_blank">Jollyany Framework</a> and Jollyany Template in order to use this template.');
 }
 $template = JollyanyFramework::getTemplate();
 // Output as HTML5
@@ -39,7 +40,6 @@ $template->_loadFontAwesome();
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="HandheldFriendly" content="true" />
       <meta name="apple-mobile-web-app-capable" content="YES" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v<?php echo AstroidFrameworkConstants::$fontawesome_version; ?>/css/all.css" >
    <jdoc:include type="head" />
    <?php
    /*
