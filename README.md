@@ -64,6 +64,12 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.1.4 - September 7th, 2019**
+
+    + [new topic] Nish II - Joomla Template integrated
+    + [improve] Improve style in basic
+    + [new feature] Fix error with external link
+
 **Version 3.1.3 - August 27th, 2019**
 
     + [update] Move all basic layout and scss to library
