@@ -64,6 +64,16 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.1.6 - September 19th, 2019**
+
+    + [new topic] MeetUp Conference Event Joomla Template included
+    + [update] Update Kunena to latest version.
+    + [improve] Move astroid js to framework
+    + [new feature] Add option color for Social Icon
+    + [Improve] add margin left/right for collapsed logo style
+    + [Improve] style for topbar
+    + [improve] Update language for v1.1.6
+
 **Version 3.1.4 - September 7th, 2019**
 
     + [new topic] Nish II - Joomla Template integrated
