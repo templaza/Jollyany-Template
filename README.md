@@ -24,6 +24,9 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 <li><a href="https://joomla.templaza.net/dino/">Dino - Creative, Agency & Photography Template</a></li>
 <li><a href="https://joomla.templaza.net/stchrist/">St. Christ - Church, NGO & Charity Template</a></li>
 <li><a href="https://joomla.templaza.net/construction/">Construction - Building, Construction & Architect Template</a></li>
+<li><a href="https://joomla.templaza.net/nish_ii/">Nish II - Creative Joomla Template</a></li>
+<li><a href="https://joomla.templaza.net/new-age/">New Age - Creative Agency Joomla Template</a></li>
+<li><a href="https://joomla.templaza.net/meetup/">Meetup - Conference Event Joomla Template</a></li>
 </ul>
 </li>
 <li><strong>100% build with SASS</strong>. If you are a developer, it's absolute easily to customize template follow client's requirement.</li>
@@ -68,6 +71,7 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
     + [update] Update Joomla 3.9.13 in quickstart
     + [update] Update SP Pagebuilder to 3.6.5.
+    + [update] Jollyany Framework v1.1.7 updated.
     + [improve] Add option allows admin specify extention update
     + [fixed bug] Cached css issue fixed
     + [fixed bug] Issue when duplicate/copy style
