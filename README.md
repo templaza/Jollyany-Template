@@ -12,7 +12,7 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 <li><a href="https://www.tzportfolio.com/"><strong>TZ Portfolio+ Pro</strong></a> | #1 Portfolio Joomla Extension compatible. Jollyany supports Addons & Style. With 20+ addons & 10+ style that will help you make up your portfolio in a minute with just a few clicks</li>
 <li>Drag & Drop Layout Builder and <strong>SP Page Builder Pro Integration</strong> <strong>(Save $49)</strong>. You can create complex layouts by drag'n drop with visual composer. Jollyany supports 60+ addons will help you easily customize your website just in few clicks</li>
 <li>Unite Slider | #1 Joomla Slideshow aka <strong>Slider Revolution Integration</strong> <strong>(Save $29)</strong>. You can create complex layouts by drag'n drop with visual inteface.</li>
-<li><strong>10 pre-built websites Included</strong>
+<li><strong>13 pre-built websites Included</strong>
 <ul>
 <li><a href="https://joomla.templaza.net/semona-fashion/">Fashion - Model Agency, Photography Joomla Template</a></li>
 <li><a href="https://jollyany.co/">Jollyany - Classic Joomla Template</a></li>
