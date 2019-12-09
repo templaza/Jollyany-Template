@@ -2,13 +2,13 @@
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension version="3.1" type="template" client="site" method="upgrade">
    <name>tz_jollyany</name>
-   <creationDate>November 2019</creationDate>
+   <creationDate>December 2019</creationDate>
    <author>TemPlaza</author>
    <authorEmail>support@templaza.com</authorEmail>
    <authorUrl>https://www.templaza.com</authorUrl>
    <copyright>Copyright (C) 2019 TemPlaza, JSC. All rights reserved.</copyright>
    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-   <version>3.1.6</version>
+   <version>3.1.7</version>
    <description>TPL_JOLLYANY_XML_DESCRIPTION</description>
 
    <updateservers>
@@ -83,7 +83,7 @@
    <config>
       <fields name="params">
          <fieldset name="basic" addfieldpath="/templates/tz_jollyany/fields">
-            <field name="jollyany" type="tzmanagerlink"></field>
+            <field name="astroid" type="tzmanagerlink"></field>
          </fieldset>
       </fields>
    </config>
