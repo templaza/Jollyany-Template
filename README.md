@@ -64,6 +64,14 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.1.7 - December 09th, 2019**
+
+    + [update] Update Joomla 3.9.13 in quickstart
+    + [update] Update SP Pagebuilder to 3.6.5.
+    + [improve] Add option allows admin specify extention update
+    + [fixed bug] Cached css issue fixed
+    + [fixed bug] Issue when duplicate/copy style
+
 **Version 3.1.6 - September 19th, 2019**
 
     + [new topic] MeetUp Conference Event Joomla Template included
