@@ -7,26 +7,27 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 # Highlight Features
 
 <ul>
-<li>Compatible with latest version <strong>Joomla 3.9.10</strong></li>
+<li>Compatible with latest version <strong>Joomla 3.9.x</strong></li>
 <li>Powerful <a href="https://astroidframework.com/"><strong>Astroid Framework</strong></a> latest version 2.2.0 made by <a href="https://getbootstrap.com/"><strong>Bootstrap v4.3.1</strong></a></li>
 <li><a href="https://www.tzportfolio.com/"><strong>TZ Portfolio+ Pro</strong></a> | #1 Portfolio Joomla Extension compatible. Jollyany supports Addons & Style. With 20+ addons & 10+ style that will help you make up your portfolio in a minute with just a few clicks</li>
 <li>Drag & Drop Layout Builder and <strong>SP Page Builder Pro Integration</strong> <strong>(Save $49)</strong>. You can create complex layouts by drag'n drop with visual composer. Jollyany supports 60+ addons will help you easily customize your website just in few clicks</li>
 <li>Unite Slider | #1 Joomla Slideshow aka <strong>Slider Revolution Integration</strong> <strong>(Save $29)</strong>. You can create complex layouts by drag'n drop with visual inteface.</li>
-<li><strong>13 pre-built websites Included</strong>
+<li><strong>14 pre-built websites Included</strong>
 <ul>
-<li><a href="https://joomla.templaza.net/semona-fashion/">Fashion - Model Agency, Photography Joomla Template</a></li>
+<li><a href="https://fashion.jollyany.co/">Fashion - Model Agency, Photography Joomla Template</a></li>
 <li><a href="https://jollyany.co/">Jollyany - Classic Joomla Template</a></li>
-<li><a href="https://joomla.templaza.net/lawyer/">Lawyer Justice - Lawyers Attorneys and Law Firm Template</a></li>
-<li><a href="https://joomla.templaza.net/charity/">Charity - Nonprofit, Fundraising, NGO Template</a></li>
-<li><a href="https://joomla.templaza.net/foodz/">Foodz - Restaurant, Salon & Spa Template</a></li>
-<li><a href="https://joomla.templaza.net/oraz/">Oraz - Music Band, Single & Producer Template</a></li>
-<li><a href="https://joomla.templaza.net/kavin_ii/">Kavin II - Business, Company & Blogger Template</a></li>
-<li><a href="https://joomla.templaza.net/dino/">Dino - Creative, Agency & Photography Template</a></li>
-<li><a href="https://joomla.templaza.net/stchrist/">St. Christ - Church, NGO & Charity Template</a></li>
-<li><a href="https://joomla.templaza.net/construction/">Construction - Building, Construction & Architect Template</a></li>
-<li><a href="https://joomla.templaza.net/nish_ii/">Nish II - Creative Joomla Template</a></li>
-<li><a href="https://joomla.templaza.net/new-age/">New Age - Creative Agency Joomla Template</a></li>
-<li><a href="https://joomla.templaza.net/meetup/">Meetup - Conference Event Joomla Template</a></li>
+<li><a href="https://justice.jollyany.co/">Lawyer Justice - Lawyers Attorneys and Law Firm Template</a></li>
+<li><a href="https://charity.jollyany.co/">Charity - Nonprofit, Fundraising, NGO Template</a></li>
+<li><a href="https://foodz.jollyany.co/">Foodz - Restaurant, Salon & Spa Template</a></li>
+<li><a href="https://oraz.jollyany.co/">Oraz - Music Band, Single & Producer Template</a></li>
+<li><a href="https://kavin2.jollyany.co/">Kavin II - Business, Company & Blogger Template</a></li>
+<li><a href="https://dino.jollyany.co/">Dino - Creative, Agency & Photography Template</a></li>
+<li><a href="https://stchrist.jollyany.co/">St. Christ - Church, NGO & Charity Template</a></li>
+<li><a href="https://construction.jollyany.co/">Construction - Building, Construction & Architect Template</a></li>
+<li><a href="https://nish2.jollyany.co/">Nish II - Creative Joomla Template</a></li>
+<li><a href="https://newage.jollyany.co/">New Age - Creative Agency Joomla Template</a></li>
+<li><a href="https://meetup.jollyany.co/">Meetup - Conference Event Joomla Template</a></li>
+<li><a href="https://eventory.jollyany.co/">Eventory - Festival, Event Joomla Template</a></li>
 </ul>
 </li>
 <li><strong>100% build with SASS</strong>. If you are a developer, it's absolute easily to customize template follow client's requirement.</li>
@@ -66,6 +67,15 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 </ul>
 
 # Changelogs:
+
+**Version 3.2.0 - January 02nd, 2020**
+
+    + [update] Update Joomla 3.9.14 in quickstart
+    + [update] Update SP Pagebuilder to 3.6.7.
+    + [update] Jollyany Framework v1.2.0 updated.
+    + [update] Astroid Framework v2.3.0 updated.
+    + [new topic] Eventory - Festival, Event Joomla Template
+    + [fixed bug] Fatal error Typography with Astroid 2.3.0
 
 **Version 3.1.7 - December 09th, 2019**
 
