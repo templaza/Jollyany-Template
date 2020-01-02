@@ -1,9 +1,9 @@
 <?php
 /**
  * @package Astroid Framework
- * @author JoomDev https://www.joomdev.com
+ * @author  JoomDev https://www.joomdev.com
  * @copyright Copyright (C) 2019 Joomdev, Inc. All rights reserved.
- * @license GNU General Public License version 2 or later.
+ * @license GNU General Public License version 2 or later;
 */
 
 defined ('_JEXEC') or die();
@@ -239,7 +239,7 @@ JFactory::getDocument()->addScriptDeclaration("
 		</fieldset>
 		<div class="btn-toolbar">
 				<button type="button" class="btn btn-primary" onclick="Joomla.submitbutton('article.save')">
-					<span class="fa fa-check"></span> <?php echo JText::_('JSAVE') ?>
+					<span class="fa fa-check"></span> <?php echo JText::_('ASTROID_SAVE') ?>
 				</button>
 				<button type="button" class="btn btn-secondary ml-2" onclick="Joomla.submitbutton('article.cancel')">
 					<span class="fa fa-times"></span> <?php echo JText::_('JCANCEL') ?>

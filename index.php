@@ -21,6 +21,7 @@ if (file_exists($astroid) && file_exists($jollyany)) {
 } else {
 	die('Please install and activate <a href="https://www.astroidframework.com/" target="_blank">Astroid Framework</a>, <a href="https://github.com/templaza/jollyany" target="_blank">Jollyany Framework</a> and Jollyany Template in order to use this template.');
 }
+require_once "helper.php";
 $template = JollyanyFramework::getTemplate();
 // Output as HTML5
 $this->setHtml5(true);
@@ -103,7 +104,12 @@ $template->_loadFontAwesome();
 </head>
 <body class="<?php echo $template->bodyClass($template->language, $template->direction); ?>">
    <?php
-   if ($template->params->get('developemnt_mode', 0)) {
+   if($template->params->exists('developemnt_mode')){
+	   $devMode = $template->params->get('developemnt_mode', 0);
+   }else{
+	   $devMode = $template->params->get('development_mode', 0);
+   }
+   if ($devMode) {
       $template->loadLayout('comingsoon');
    } else {
       $template->loadLayout('preloader');
