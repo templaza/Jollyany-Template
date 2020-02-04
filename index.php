@@ -104,10 +104,10 @@ $template->_loadFontAwesome();
 </head>
 <body class="<?php echo $template->bodyClass($template->language, $template->direction); ?>">
    <?php
-   if($template->params->exists('developemnt_mode')){
-	   $devMode = $template->params->get('developemnt_mode', 0);
-   }else{
+   if($template->params->exists('development_mode')){
 	   $devMode = $template->params->get('development_mode', 0);
+   }else{
+	   $devMode = $template->params->get('developemnt_mode', 0);
    }
    if ($devMode) {
       $template->loadLayout('comingsoon');
