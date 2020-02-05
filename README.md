@@ -68,6 +68,11 @@ This means it will be one suiting all needs: Blog, Events, Business, Company web
 
 # Changelogs:
 
+**Version 3.2.1 - February 05th, 2020**
+
+    + [update] Jollyany Framework v1.2.4 updated.
+    + [improve] Move clear data to template
+
 **Version 3.2.0 - January 02nd, 2020**
 
     + [update] Update Joomla 3.9.14 in quickstart
